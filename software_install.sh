@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Télécharge le fichier .deb de Visual Studio Code
-wget -O vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
+wget -O vscode.deb http://go.microsoft.com/fwlink/?LinkID=760868
 
 # Installe le paquet Visual Studio Code
 sudo dpkg -i vscode.deb
@@ -13,7 +13,7 @@ sudo apt install -f
 rm vscode.deb
 
 # Spécifie la version de PHPStorm à télécharger (remplacez le lien avec la version correcte)
-phpstorm_version="2021.3.1"
+phpstorm_version="2023.1.1"
 
 # Télécharge le fichier .tar.gz de PHPStorm
 wget -O phpstorm.tar.gz "https://download.jetbrains.com/webide/PhpStorm-${phpstorm_version}.tar.gz"
