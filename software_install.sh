@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Télécharge le fichier .deb de Visual Studio Code
-wget -O vscode.deb https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+wget -O vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
 
 # Installe le paquet Visual Studio Code
 sudo dpkg -i vscode.deb
