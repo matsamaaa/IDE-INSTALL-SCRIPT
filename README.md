@@ -9,13 +9,13 @@ This Bash script simplifies the installation of Visual Studio Code and PHPStorm 
 2. Ensure you have execution permissions for the script:
 
     ```bash
-    chmod +x install_vscode_phpstorm.sh
+    chmod +x software_install.sh
     ```
 
 3. Run the script:
 
     ```bash
-    ./install_vscode_phpstorm.sh
+    ./software_install.sh
     ```
 
 3. Follow the instructions during the installation.
