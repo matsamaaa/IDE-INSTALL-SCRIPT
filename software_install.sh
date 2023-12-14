@@ -12,4 +12,8 @@ sudo apt install -f
 # Supprime le fichier .deb téléchargé
 rm vscode.deb
 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_arm64.deb
+sudo dpkg -i google-chrome-stable_current_arm64.deb
+sudo apt-get install -f
+
 echo "Visual Studio Code has been installed !"
