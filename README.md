@@ -23,10 +23,6 @@ This Bash script simplifies the installation of Visual Studio Code and Chromium 
 5. To create users with configurations, run the user creation script:
 
     ```bash
-    chmod +x software_install.sh script.sh
-    ```
-
-    ```bash
     ./script.sh
     ```
 
