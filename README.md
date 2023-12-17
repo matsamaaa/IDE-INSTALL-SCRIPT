@@ -23,7 +23,7 @@ This Bash script simplifies the installation of Visual Studio Code and Chromium 
 5. To create users with configurations, run the user creation script:
 
     ```bash
-    ./script.sh
+    ./script.sh nanti.csv
     ```
 
 ## Configuration
